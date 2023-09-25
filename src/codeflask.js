@@ -23,6 +23,9 @@
 
   import Prism from 'prismjs';
 
+  // Additional languages
+  import "prismjs/components/prism-git"
+
   // import "prismjs-components-importer/esm"; // ALL - Massivly Increases Bundle size!
 
   import "prismjs-components-importer/esm/prism-iecst"; // Structured Text
