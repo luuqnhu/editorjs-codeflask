@@ -24,7 +24,7 @@
   import Prism from 'prismjs';
 
   // Additional languages
-  import "prismjs/components/prism-git"
+  import "prismjs/components/prism-java"
 
   // import "prismjs-components-importer/esm"; // ALL - Massivly Increases Bundle size!
 
@@ -297,4 +297,5 @@
    }
  }
  
-export { EditorJsCodeFlask as default }
+// export { EditorJsCodeFlask as default }
+export default EditorJsCodeFlask
