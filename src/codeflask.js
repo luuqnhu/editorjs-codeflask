@@ -24,7 +24,24 @@
   import Prism from 'prismjs';
 
   // Additional languages
-  import "prismjs/components/prism-java"
+  import "prismjs/components/prism-git";
+  import "prismjs/components/prism-mongodb";
+  import "prismjs/components/prism-jsx";
+  import "prismjs/components/prism-typescript";
+  import "prismjs/components/prism-tsx";
+  import "prismjs/components/prism-regex";
+  import "prismjs/components/prism-scss";
+  import "prismjs/components/prism-matlab";
+  import "prismjs/components/prism-r";
+  import "prismjs/components/prism-rust";
+  import "prismjs/components/prism-solidity";
+  import "prismjs/components/prism-sql";
+  import "prismjs/components/prism-wasm";
+  import "prismjs/components/prism-yaml";
+  import "prismjs/components/prism-docker";
+  import "prismjs/components/prism-graphql";
+  import "prismjs/components/prism-groovy";
+  import "prismjs/components/prism-makefile";
 
   // import "prismjs-components-importer/esm"; // ALL - Massivly Increases Bundle size!
 
